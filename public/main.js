@@ -220,7 +220,7 @@ var DataService = /** @class */ (function () {
         this.http = http;
     }
     DataService.prototype.getFact = function (location) {
-        return this.http.get("http://api.apixu.com/v1/forecast.json?key=efe9d9bf5b0f4294ba0162531191804&q=" + location + "&days=7");
+        return this.http.get("https://api.apixu.com/v1/forecast.json?key=efe9d9bf5b0f4294ba0162531191804&q=" + location + "&days=7");
     };
     DataService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
